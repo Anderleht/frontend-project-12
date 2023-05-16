@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './routes/Login';
-import MainPage from './routes/MainPage';
+import { Login } from './routes/Login';
+import { MainPage } from './routes/MainPage';
 
 const NotFound = () => {
   return (
